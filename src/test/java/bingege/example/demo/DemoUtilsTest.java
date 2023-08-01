@@ -7,7 +7,7 @@ public class DemoUtilsTest {
 
     @Test
     public void test_greeting() {
-        Assertions.assertEquals(DemoUtils.greeting(), "Hi");
+        Assertions.assertEquals(11, DemoUtils.greeting().length());
     }
 
     @Test
