@@ -7,6 +7,6 @@ public class DemoUtils {
     }
 
     public static String test() {
-        return "test";
+        return "test1";
     }
 }
