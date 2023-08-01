@@ -15,4 +15,8 @@ public class DemoUtilsTest {
         Assertions.assertEquals(DemoUtils.greeting(), "Hello World");
     }
 
+    @Test
+    void test1() {
+        Assertions.assertEquals(DemoUtils.test(), "test");
+    }
 }
