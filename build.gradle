@@ -46,8 +46,12 @@ publishing {
 		}
 	}
 	publications {
-		gpr(MavenPublication) {
-			from(components.java)
+		mavenJava(MavenPublication){
+			// bootJar is the default build task configured by Spring Boot
+			artifact bootJar
 		}
+//		gpr(MavenPublication) {
+//			from(components.java)
+//		}
 	}
 }
